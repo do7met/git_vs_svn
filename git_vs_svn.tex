@@ -1,0 +1,35 @@
+\documentclass[11pt]{article}
+%Gummi|065|=)
+\title{\textbf{Git vs. Subverion \\ -- \\ Der Vergleich }}
+\author{Sven Eiermann}
+\date{}
+\begin{document}
+
+\maketitle
+
+\section{Vorteile beider Systeme}
+
+Das sind die jeweiligen Vorteile der beiden Systeme:
+
+Git sollten Sie immer dann bevorzugen, wenn Sie:
+
+\begin{itemize}
+
+\item    nicht auf eine dauerhafte Netzwerkverbindung angewiesen sein wollen, um überall an Ihrem Projekt arbeiten zu können.
+  \item  im Falle eines Ausfalls oder Verlusts des Haupt-Repositorys abgesichert sein wollen.
+    \item keinerlei Lese- und Schreibberechtigung für spezielle Verzeichnisse benötigen (wobei diese auf komplexem Weg auch mit Git eingerichtet werden können).
+   \item  Wert auf eine sehr schnelle Übertragung der Änderungen legen.
+\end{itemize}
+
+
+Subversion ist die bessere Wahl, wenn Sie:
+
+
+\begin{itemize}
+    \item pfadbasierte Zugangsberechtigungen für verschiedene Bereiche Ihres Projektes benötigen.
+    \item Ihre gesamte Arbeit an einem zentralen Ort bündeln möchten.
+    \item mit vielen großen Binär-Dateien arbeiten.
+    \item auch die Strukturen leerer Verzeichnisse vollständig aufzeichnen möchten (Git verwirft diese, da sie keinerlei Inhalt besitzen).
+\end{itemize}
+
+\end{document}
