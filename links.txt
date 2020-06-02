@@ -1,0 +1,4 @@
+https://t3n.de/news/schneller-git-einstieg-befehle-1077761/
+https://rogerdudler.github.io/git-guide/index.de.html
+https://www.atlassian.com/de/git/tutorials/setting-up-a-repository
+https://www.ionos.de/digitalguide/websites/web-entwicklung/git-vs-svn-versionsverwaltung-im-vergleich/
